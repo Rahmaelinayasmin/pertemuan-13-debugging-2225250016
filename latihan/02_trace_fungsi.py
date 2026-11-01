@@ -1,0 +1,12 @@
+# Latihan 2: Menelusuri Fungsi
+
+def hitung_diskon(total, persen):
+    diskon = total * persen / 100
+    return total - diskon
+
+
+hasil = hitung_diskon(200000, 10)
+
+print("Total belanja: Rp200000")
+print("Diskon: 10%")
+print("Total setelah diskon: Rp", hasil)
